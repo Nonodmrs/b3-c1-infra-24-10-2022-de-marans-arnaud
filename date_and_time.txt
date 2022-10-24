@@ -1,0 +1,47 @@
+Ex 1 : The datetime Library
+
+from datetime import datetime
+
+
+Ex 2 : Getting the Current Date and Time
+
+from datetime import datetime
+
+now = datetime.now()
+print now
+
+
+Ex 3 : Extracting Information
+
+from datetime import datetime
+
+now = datetime.now()
+print now
+
+print now.year
+print now.month
+print now.day
+
+
+Ex 4 : Hot Date
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)
+
+
+Ex 5 : Pretty Time
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d:%02d:%04d' % (now.hour, now.minute, now.second)
+
+
+Ex 6 : Grand Finale
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
